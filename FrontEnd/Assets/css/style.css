@@ -1,0 +1,35 @@
+/* Tema Custom KantinKu */
+:root {
+    --food-primary: #16a34a;
+    --food-primary-hover: #15803d;
+    --food-accent: #d97706;
+    --food-bg: #f8fafc;
+}
+
+body {
+    background-color: var(--food-bg);
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+.btn-food-primary {
+    background-color: var(--food-primary);
+    color: #ffffff;
+    border: none;
+    transition: all 0.2s ease;
+}
+
+.btn-food-primary:hover {
+    background-color: var(--food-primary-hover);
+    color: #ffffff;
+}
+
+.card-product {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-product:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08) !important;
+}
